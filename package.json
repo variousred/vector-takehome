@@ -1,0 +1,32 @@
+{
+  "name": "vector-task-generator",
+  "version": "1.0.0",
+  "description": "Task Generator for Vector Remote Care - Scalable patient data ingestion with hashed staggered scheduling",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "healthcare",
+    "remote-patient-monitoring",
+    "task-scheduling",
+    "distributed-systems"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  }
+}
